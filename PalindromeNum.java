@@ -6,7 +6,6 @@ public class PalindromeNum {
     public static boolean isPalindrome(int num) {
         int original = num;
         int reverse = 0;
-
         // Handle negative numbers (not considered palindrome here)
         if (num < 0) {
             return false;
